@@ -14,8 +14,12 @@
   "homepage": "https://plxtra.org",
   "author": "Plxtra contributors",
   "browse": "index.ts",
+  "config": {
+    "motifPath": "../motif/motif"
+  },
   "scripts": {
-    "dist": "webpack --mode development --config ./webpack.config.js"
+    "dist": "webpack --mode development --config ./webpack.config.js",
+    "serve": "& ./PSScripts/Invoke-NgServe.ps1"
   },
   "dependencies": {
     "@plxtra/motif-api": "^3.1.1"

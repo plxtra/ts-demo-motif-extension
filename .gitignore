@@ -1,5 +1,4 @@
 
-# Motif
 node_modules/
 *.tgz
 dist/
