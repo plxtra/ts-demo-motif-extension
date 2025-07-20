@@ -1,6 +1,6 @@
 {
   "name": "@plxtra/ts-demo-motif-extension",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TypeScript Demo Motif extension",
   "private": true,
   "license": "Apache-2.0",
@@ -14,9 +14,6 @@
   "homepage": "https://plxtra.org",
   "author": "Plxtra contributors",
   "browse": "index.ts",
-  "config": {
-    "motifPath": "../motif/motif"
-  },
   "scripts": {
     "dist": "webpack --mode development --config ./webpack.config.js",
     "serve": "& ./PSScripts/Invoke-NgServe.ps1"
